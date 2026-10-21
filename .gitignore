@@ -1,6 +1,7 @@
 # Build output and signing keys
 launcher/build/
 *.apk
+*.idsig
 *.keystore
 *.jks
 
