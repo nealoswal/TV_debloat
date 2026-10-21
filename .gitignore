@@ -1,0 +1,17 @@
+# Build output and signing keys
+launcher/build/
+*.apk
+*.keystore
+*.jks
+
+# Licensed photos: capture your own, never commit them
+launcher/assets/wall/*
+!launcher/assets/wall/.gitkeep
+wallpapers/raw/
+
+# TV backups can contain device identifiers
+debloat/backup/
+backup/
+
+# Local SDK tools
+tools/

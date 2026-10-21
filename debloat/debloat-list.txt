@@ -1,0 +1,54 @@
+# Packages disabled (pm disable-user) on Sony BRAVIA 2015 / Android TV 8.0
+# Never uninstalled. Undo any line with:  adb shell pm enable <package>
+
+# --- Ads / promos / dead services
+com.sony.dtv.sonyselect
+com.sony.dtv.sonyselect.overlay
+com.sony.dtv.discovery
+com.sony.dtv.indiametarecommendation
+com.google.android.tvrecommendations
+com.google.android.music
+
+# --- Telemetry / analytics
+com.google.android.feedback
+com.google.android.tv.bugreportsender
+com.sony.dtv.da.service
+com.qterics.da.product
+com.sony.dtv.enclave.service
+com.sony.dtv.interactivetvutil
+com.sony.dtv.interactivetvutil.output
+
+# --- Hotel / pro / retail / tutorials  (b2b.hotelmode kept: Sony Settings needs its provider)
+com.sony.dtv.b2b.importexport
+com.sony.dtv.b2b.noderuntime.normal
+com.sony.dtv.b2b.noderuntime.privilege
+com.sony.dtv.b2b.prosettings
+com.sony.dtv.b2b.rs232csupport
+com.sony.dtv.b2b.vendorprotocol
+com.sony.dtv.shopsettings
+com.google.android.tvtutorials
+com.sony.dtv.touchpad.tutorial
+com.sony.dtv.customersupport
+
+# --- Apps you don't use
+com.jio.media.stb.ondemand
+com.google.android.videos
+
+# --- Live-TV-only extras (HDMI inputs / TV player kept)
+com.sony.dtv.tvxlauncher.programguide
+com.sony.dtv.tvxlauncher.titlelist
+com.sony.dtv.hbbtvlauncher
+com.sony.dtv.tvx.search.s101.tvprograms.digital
+com.sony.dtv.tvx.search.s101.tvprograms.vt
+com.sony.dtv.tvx.search.s201.netepg
+com.sony.dtv.tvx.search.s301.rec
+com.sony.dtv.irblaster
+com.sony.dtv.irbservice
+com.sony.dtv.handlingirblaster
+com.uei.quicksetsdk.sony
+
+# --- TV Camera / Help
+com.sony.dtv.tvcamera
+com.sony.dtv.camerarecognitionservice
+com.sony.dtv.imanual
+com.sony.dtv.smarthelp
